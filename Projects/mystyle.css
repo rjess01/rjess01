@@ -22,7 +22,7 @@ p{
     font-size:1.6rem;
     margin:0rem;
     line-height:2;
-    background-color:black;
+    background-color:rgb(252, 252, 252);
     color: rgb(3, 145, 57);
 }
 h4{
@@ -51,7 +51,7 @@ img{
     .site-header{
         display:flex;
         justify-content:center;
-        align-items:center; 
+        align-items:center;
     }
     .site-header h1{
         font-size:8rem;
@@ -68,11 +68,11 @@ img{
     font-weight:bold;
 }
 .site-header h2{
-    color: rgb(245, 244, 244);
+    color: rgb(10, 10, 10);
     font-size: 4rem;
     text-align: center;
     text-decoration: none;
-    text-shadow: 2px 1px black;
+    text-shadow: 2px 1px rgb(247, 245, 245);
 }
 .icon-containers{
     text-align: center;
@@ -87,13 +87,16 @@ img{
     color: white; 
  }
  .menu{
+    display: flex;
+    flex-direction:row;
     text-align: center;
     margin-top: 3rem;
+    justify-content: space-between;
 }
 .menu a{
     font-size: 2rem;
     text-decoration: none;
-    color: rgb(245, 244, 244);
+    color: rgb(5, 5, 5);
     font-weight: 700;
     margin-bottom: 1rem;
 }
@@ -107,12 +110,12 @@ img{
     }
     .menu a{
         font-size: 1.6rem;
-        margin-right: .5rem;
+        margin-right: 2rem;
     }
 }
 /*main*/
 .img-container{
-    width: 10rem;
+    width: 20rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
@@ -121,6 +124,10 @@ img{
     border-radius: 50%;
     border: 5px solid rgb(255, 255, 255);
     padding: .5rem;
+}
+img:hover{
+    transform: rotateY(45deg);
+    box-shadow: 5px 5px 5px 5px  rgb(7, 7, 7);
 }
 /*footer*/
 .site-footer{
@@ -141,7 +148,7 @@ footer.site-footer .icons-containers a i{
 }
 /*contact page*/
 h3{
-    text-align: center;
+    text-align: left;
 }
 .project-container{
     flex-direction: column;
@@ -202,8 +209,7 @@ h4{
     padding: 3rem;
 }
 
-@media(min-width:678px){
-}
+@media(min-width:768px){
     .aside-education{
         display: block;
         background-color:#e1e1e1;
@@ -226,3 +232,4 @@ h4{
     .div-education div:nth-child(3){
         margin-left: 100rem;
     }
+}
