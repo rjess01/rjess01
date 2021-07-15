@@ -1,0 +1,43 @@
+h1{
+    color: aqua;
+    background-color: black;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 10px 0;
+}
+.capture-form {
+    border-radius: 1px solid whitesmoke;
+    width: 340px;
+    padding: 20px 0 20px 0;
+
+}
+.control {
+    padding: 5px 10px;
+}
+
+.control lable {
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+}
+
+.control input,
+.control select {
+    display: inline-block;
+    width: 150px;
+    padding: 4px 7px;
+    margin-left: 5px;
+}
+.control select {
+    width: 167px;
+}
+
+#btnSave {
+    display: inline-block;
+    width: 100px;
+    padding: 4px 7px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    margin-left: 7px;
+}
