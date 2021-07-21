@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/app.css" >
+    <link rel="stylesheet" href="styles/menu.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="menu-item">
+            <li class="active"><a  href="index.html"></a>Home</li>
+            <li><a  href="user.html"></a>List Users</li>
+            <li><a  href="register.html"></a>Register</li>
+        </ul>
+        <div class="menu-info">
+            <lable>3 users</lable>
+        </div>
+    </nav>
+
+
+    <h1>Login Simp</h1>
+    <div id="loginForm" class="login-container">
+
+        <h3>Member Login</h3>
+
+        <div id="alertError" class="Password-error alert error hide">
+        Invalid Credentials. Retry.
+        </div>
+    
+        <input id="txtEmail" type="text" class="control" placeholder="email">
+        <input id="txtPassword" type="password" class="control" placeholder="password">
+
+        <button id="btnLogin" class="btn-dark">Log In</button>
+    </div>
+
+<div id="LogoutForm" class="login-container">
+    <h5 id="hEmail">PUT USER EMAIL HERE</h5>
+    <h5 id="hName">TYPE FIRST LAST HERE</h5>
+
+    <button id="btnLogOut" class="btn-dark">LOG OUT</button>
+</div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/storageManager.js"></script>
+    <script src="script/menu.js"></script>
+    <script src="script/login.js"></script>
+</body>
+</html>

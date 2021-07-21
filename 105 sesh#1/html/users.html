@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+
+    <link href="styles/menu.css" rel="stylesheet">
+    <link href="styles/app.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <ul class="menu-item">
+            <li><a  href="index.html"></a>Login</li>
+            <li class="active"><a  href="user.html"></a>List Users</li>
+            <li><a  href="register.html"></a>Register</li>
+        </ul>
+        <div class="menu-info">
+            <lable>3 users</lable>
+        </div>
+    </nav>
+
+    <h1>Registration list</h1>
+
+    <button id="btnClear" class="btn-clear-data">Clear Table</button>
+
+    <table class="tbl-users">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>firstName</th>
+                <th>lastName</th>
+                <th>Age</th>
+                <th>Payment</th>
+                <th>Address</th>
+                <th>Phone Number</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+
+        <tbody  id="tblUsers"> 
+                    <tr>
+                        <td>Email</td>
+                        <td>firstName</td>
+                        <td>lastName</td>
+                        <td>Age</td>
+                        <td>Payment</td>
+                        <td>Address</td>
+                        <td>Phone Number</td>
+                        <td>Color</td>
+                    </tr>
+                </tbody>
+</table>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script/storageManager.js"></script>
+<script src="script/menu.js"></script>
+<script src="script/list.js"></script>
+    
+
+</body>
+</html>

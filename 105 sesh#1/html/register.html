@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Users</title>
+
+    <link href="styles/app.css" rel="stylesheet">
+    <link href="styles/menu.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <ul class="menu-item">
+            <li><a  href="index.html"></a>Home</li>
+            <li><a  href="user.html"></a>List Users</li>
+            <li class="active"><a  href="register.html"></a>Register User</li>
+        </ul>
+        <div class="menu-info">
+            <lable>3 users</lable>
+        </div>
+    </nav>
+
+    <h1>Register a new User into the system</h1>
+    
+    <div class="capture-form">
+        <div id="alertError" class="password-error alert-error hide">
+            Error
+        </div>
+
+        <h3 id="hForm">User Information</h3>
+
+        <div class="control">
+            <lable>Email</lable>
+            <input id="txtEmail" type="email">
+        </div>
+
+        <div class="control">
+            <lable>Password</lable>
+            <input id="txtPassword" type="password">
+        </div>
+
+        <div class="control">
+            <lable>firstName</lable>
+            <input id="txtFirst" type="text">
+        </div>
+
+        <div class="control">
+            <lable>lastName</lable>
+            <input id="txtLast" type="text">
+        </div>
+
+        <div class="control">
+            <lable>Age</lable>
+            <input id="txtAge" type="number">
+        </div>
+
+        <div class="control">
+            <lable>Address</lable>
+            <input id="txtAddress" type="text">
+        </div>
+
+        <div class="control">
+            <lable>Phone Number</lable>
+            <input id="txtPhone" type="tel">
+        </div>
+
+        <div class="control">
+            <lable>Payment</lable>
+            <select id="selPayment">
+                <option>PayPal</option>
+                <option>Check</option>
+                <option>Cash</option>
+                <option>Video Games</option>
+            </select>
+        </div>
+
+        <div class="control">
+            <lable>Color</lable>
+            <input id="selColor"type="color">
+        </div>
+
+        <div class="control">
+            <button id="btnSave">Register User</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/storageManager.js"></script>
+    <script src="script/menu.js"></script>
+    <script src="script/register.js"></script>
+    <script src="script/test.js"></script>
+   
+</body>
+</html>
+
+<!--
+    email
+    password
+    First
+    Last
+    Age
+    Address
+    Phone Number
+    payment
+    color
+-->
