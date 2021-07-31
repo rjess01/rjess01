@@ -1,0 +1,68 @@
+
+body {
+    font-family: cursive;
+    background-color: rgb(248, 214, 219);
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    background-color: rgb(247, 201, 208);
+    color: rgb(9, 207, 207);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.capture-form {
+    border: 1px solid rgb(9, 207, 207);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgb(122, 122, 122);
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: rgb(248, 225, 181);
+}
+
+.capture-form input {
+    flex: 3;
+    margin-right: 10px;
+    background-color: rgb(248, 214, 219);
+    border: 1.5px solid rgb(9, 207, 207);
+}
+
+.capture-form button {
+    flex: 1;
+}
+
+.item {
+    padding: 10px 20px;
+    background-color: rgb(248, 225, 181);
+    margin-bottom: 10px;
+    border: 1px solid rgb(9, 207, 207);
+    border-radius: 4px;
+    display: flex;
+}
+
+.item:hover {
+    border: 1px solid rgb(9, 207, 207);
+    cursor: pointer;
+    
+}
+
+.item:hover label{
+    color: rgb(9, 207, 207);
+    font-weight: 500;
+}
+
+.itemlable {
+    font-size: 20px;
+    color: rgb(163, 162, 162);
+    flex: 1;
+    cursor: pointer;
+}
+
+.item button {
+    margin-left: 10px;
+}
