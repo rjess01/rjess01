@@ -1,3 +1,13 @@
+:root {
+  --primary: rgb(177, 228, 60);
+  --primary-light:rgb(22, 94, 106, 0.6);
+  --highlight: orange;
+  --control-border:gray;
+  --background:rgb(247, 12, 12);
+  --shadow:blue;
+  --border:rgb(6, 133, 17);
+}
+
 .App {
   text-align: center;
 }
